@@ -24,9 +24,10 @@ The following **required** functionality is completed:
   * [X]  Required: Repair the create and verify signature code
   
 6\. Encrypted Message 2
-  * [ ]  Required: Decrypt the message
-  * [ ]  Required: Verify the message
-  * [ ]  Required: Include a response message in this README
+  * [X]  Required: Decrypt the message
+  * [X]  Required: Verify the message
+  * [X]  Required: Include a response message in this README
+  * Response: Cannot access APEX from this location. Send new agent codename and public key so I can contact. Encrypt response to protect codename. Include signature to verify identity and message integrity. -- sydneybristow
 
 7\. Agent Messages
   * [ ]  Required: Repair the dropbox code
