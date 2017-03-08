@@ -45,10 +45,15 @@
       <?php while($message = db_fetch_assoc($message_result)) { ?>
         <?php
           $created_at = strtotime($message['created_at']);
+          $sender_result = $message['sender_id'];
+          $sender = db_fetch_assoc(find_agent_by_id($sender_result));
           
-          // Oooops.
-          // My finger accidentally hit the delete-key.
-          // Sorry, APEX!!!
+          $result = verify_signature($message['cipher_text'], $message['signature'], 
+                                     $sender['public_key']);
+          $validity_text = $result === 1 ? 'Valid' : 'Not Valid';
+
+          $decrypted_text = pkey_decrypt($message['cipher_text'], $current_user['private_key']);
+          $message_text = ($current_user['id'] == $agent['id']) ? $decrypted_text : $message['cipher_text'];
           
         ?>
         <tr>

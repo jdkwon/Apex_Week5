@@ -8,9 +8,15 @@
       redirect_to('index.php');
     }
 
-    // I'm sorry, did you need this code? ;)
-    // Guess you'll just have to re-write it.
-    // With love, Dark Shadow
+    $sender = login();
+    $id = $_GET['id'];
+    $agent_result = find_agent_by_id($id);
+
+    // No loop, only one result
+    $agent = db_fetch_assoc($agent_result);
+
+    $encrypted_text = pkey_encrypt($_POST['plain_text'], $agent['public_key']);
+    $signature = create_signature($encrypted_text, $sender['private_key']);
     
     $message = [
       'sender_id' => $sender['id'],
