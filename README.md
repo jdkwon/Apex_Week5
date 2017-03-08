@@ -47,11 +47,16 @@ The following **required** functionality is completed:
 8\. Identify the Double Agent
   * [X]  Required: Decrypt as many email messages as possible
 
-  > Email 1: The SQL injection we discussed is in place. Just search for an agent. 
+  > Email 1: The SQL injection we discussed is in place. Just search for an agent.
+  
   > Email 2: N/A
+  
   > Email 3: Today I was able to sneak several XSS vulnerabilities onto one of the encrypt/decrypt pages.
+  
   > Email 4: N/A
+  
   > Email 5: Let me know before you go inside. I'll create a distraction. - Austin
+  
   > Email 6: Let me know before you go inside. I'll create a distraction. - Natasha
   
   * [X]  Required: Identify the double agent: **Natasha**
