@@ -12,6 +12,7 @@ The following **required** functionality is completed:
 2\. Encrypted Message 1
   * [X]  Required: Decrypt the government message
   * [X]  Required: Encrypt a response and include in this README
+  
   > UduN5kOnzMQO/PfuUui+QL+LuHmAu3dp46HpglZ2rmkVlzM8HRMqqlqLmfgYNsGV
 
 3\. Generate Public-Private Keys
@@ -48,15 +49,10 @@ The following **required** functionality is completed:
   * [X]  Required: Decrypt as many email messages as possible
 
   > Email 1: The SQL injection we discussed is in place. Just search for an agent.
-  
   > Email 2: N/A
-  
   > Email 3: Today I was able to sneak several XSS vulnerabilities onto one of the encrypt/decrypt pages.
-  
   > Email 4: N/A
-  
   > Email 5: Let me know before you go inside. I'll create a distraction. - Austin
-  
   > Email 6: Let me know before you go inside. I'll create a distraction. - Natasha
   
   * [X]  Required: Identify the double agent: **Natasha**
