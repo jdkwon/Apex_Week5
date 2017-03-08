@@ -1,6 +1,6 @@
 # Project 5 - Encryption
 
-Time spent: **4** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
@@ -30,8 +30,9 @@ The following **required** functionality is completed:
   * [X] RESPONSE:
   ```
   voK8KVtfidh2gQAuY4L93vTs9cyFuDdJ6ihfxPoPGOFRQh8ohT6K0dKJ7NKe8Uc/1v+b9Q7uWlK6XZyTaV3KND8ORlTBCMsvXSHH9PNQcmdthRoktQDZaP/kqEk1aEjD55EYXxjt07q4EMnSpeV6iknVznniY+yT/U8fqszXMDpBL/BH8QhuSL11DtrjxngATGJNqWmUA7y2/dnS0vIizh9o5hTq1TBNhnnp1bITM0lFihMoRGkOKhWAxRt5s6wu3sx4KM0RKw6c9XJhda4tvfAWV5V3HgW60hMVu6O3lsm/iarqd4rSztsPcC8umQhKz00DuvpxRdLb+yS67YOuTA==
-  
-  
+
+
+
   Signature:
   IadBaN+orGO9lit2EO6PaAiUhY4UxCua1R05DNXO1vKpdufDkHf1iiH/Y6Kqf2znuzxtlKCXRcWIICMWpSWRw45f0aNHtcdPBuUKgV81j2rS42pjdUNW9pqpT1vsIcMHazaqC0mb8P4HCPr2ghPiRUJUyuOB0Zt6+FsnNknEnZjFnbKn1Rc6KvJcpFaWnTJ31VHvIwBO1IJPgMQvxDVoIAiRG4KBMJVaKGokBo7t8bFnoWrmCHab2ZJO2FL7HnJ65cy8nnfl4FUAmADPqh+4uylEbE0nMdGncrIKBIrATXvlkM4gkTShdJIKOa564dxwD+0NTq4jbzuovyBoeae57Q==
   ```
